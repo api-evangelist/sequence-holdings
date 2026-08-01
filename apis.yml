@@ -1,8 +1,23 @@
 aid: sequence-holdings
 name: Sequence Holdings
-description: Sequence Holdings is a company surfaced as a portfolio company of 8vc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Sequence Holdings is a technology holding company that acquires established businesses
+  and transforms them with artificial intelligence. Surfaced as a portfolio company of 8vc, it operates
+  as an investment and operating group that buys mature companies and applies AI to modernize their
+  products and operations. The company publishes a single marketing site and no public developer or
+  API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/sequence-holdings/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://seqholdings.com/apple-icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +26,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Holding Company
+- Artificial Intelligence
+- Business Acquisition
+- Technology
+- Investment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +41,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sequence-holdings-domain-security.yml
 - type: Website
   url: https://seqholdings.com
+- type: Twitter
+  url: https://twitter.com/seqholdings
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
