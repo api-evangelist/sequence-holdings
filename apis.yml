@@ -6,6 +6,17 @@ description: Sequence Holdings is a technology holding company that acquires est
   products and operations. The company publishes a single marketing site and no public developer or
   API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/sequence-holdings/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
