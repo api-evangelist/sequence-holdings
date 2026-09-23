@@ -1,0 +1,26 @@
+# Front Door AI Index — sequence-holdings — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: sequence-holdings
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: seqholdings.com
+  final_host: seqholdings.com
+  ownership: own
+  owner: sequence-holdings
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 40.0
+  words: 50
+  tiers:
+    agentic: 0
+    core: 2
+    model: 0
+  ambiguous: 2
+  top_terms:
+    artificial intelligence: 2
+    intelligence: 2
